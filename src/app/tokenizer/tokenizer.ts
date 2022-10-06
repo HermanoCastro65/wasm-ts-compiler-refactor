@@ -1,5 +1,4 @@
-import { ITokenizer } from '../../models/tokenizer/interfaces/tokenizer.interface'
-import { IToken } from '../../models/tokenizer/token.exports'
+import { ITokenizer, IToken } from '../../models/tokenizer/interfaces.exports'
 import { TokenizerError } from './class/tokenizer.class'
 import { matchers, locationForIndex } from './constants/constants.exports'
 

@@ -1,4 +1,4 @@
-import { IToken } from '../../tokenizer/token.exports'
+import { IToken } from '../../tokenizer/interfaces.exports'
 import { IProgram, TProgram } from '../program.exports'
 
 export interface Parser {
