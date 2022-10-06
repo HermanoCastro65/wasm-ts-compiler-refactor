@@ -1,4 +1,4 @@
-import { IToken } from './token.interface'
+import { IToken } from '../token.export'
 
 export interface ITokenizer {
   (input: string): IToken[]
