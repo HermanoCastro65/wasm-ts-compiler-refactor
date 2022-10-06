@@ -1,4 +1,4 @@
-import { IToken } from '../token.export'
+import { IToken } from '../token.exports'
 
 export interface IMatcher {
   (input: string, index: number): IToken | null
