@@ -1,5 +1,5 @@
 import { ITokenizer, IToken } from '../../models/tokenizer/interfaces.exports'
-import { TokenizerError } from './class/tokenizer.class'
+import { TokenizerError } from './error/class/tokenizer.error'
 import { matchers, locationForIndex } from './constants/constants.exports'
 
 export const tokenize: ITokenizer = (input) => {
