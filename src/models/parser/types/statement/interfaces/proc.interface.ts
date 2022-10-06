@@ -1,6 +1,6 @@
-import { IProgram } from '../../../interfaces/program.interface'
-import { IIdentifier } from '../../expression/interfaces/identifier.interface'
-import { TStatement } from '../types/statement.type'
+import { IProgram } from '../../../program.exports'
+import { IIdentifier } from '../../expression/interfaces.exports'
+import { TStatement } from '../statement.export'
 
 export interface IProc extends IProgram {
   type: 'procStatement'

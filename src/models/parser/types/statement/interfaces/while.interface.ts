@@ -1,6 +1,6 @@
-import { IProgram } from '../../../interfaces/program.interface'
-import { TExpression } from '../../expression'
-import { TStatement } from '../types/statement.type'
+import { IProgram } from '../../../program.exports'
+import { TExpression } from '../../expression/types.exports'
+import { TStatement } from '../statement.export'
 
 export interface IWhile extends IProgram {
   type: 'whileStatement'

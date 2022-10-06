@@ -1,5 +1,3 @@
-import { IBinary } from '../interfaces/binary.interface'
-import { IIdentifier } from '../interfaces/identifier.interface'
-import { INumber } from '../interfaces/number.interface'
+import { IBinary, IIdentifier, INumber } from '../interfaces.exports'
 
-export type TExpression = INumber | IBinary | IIdentifier
+export type TExpression = IBinary | IIdentifier | INumber

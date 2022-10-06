@@ -1,6 +1,5 @@
-import { IToken } from '../../tokenizer/interfaces/token.interface'
-import { TProgram } from '../types/program.type'
-import { IProgram } from './program.interface'
+import { IToken } from '../../tokenizer/token.exports'
+import { IProgram, TProgram } from '../program.exports'
 
 export interface Parser {
   (tokens: IToken[]): TProgram
