@@ -5,5 +5,5 @@ export interface IBinary extends IProgram {
   type: 'binaryExpression'
   left: TExpression
   right: TExpression
-  operatorO: TOperator
+  operator: TOperator
 }
