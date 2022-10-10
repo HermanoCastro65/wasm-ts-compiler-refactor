@@ -1,4 +1,4 @@
-import { IProgram } from '../../../program.exports'
+import { IProgram } from '../../../interfaces.exports'
 import { IIdentifier } from '../../expression/interfaces.exports'
 import { TStatement } from '../statement.export'
 

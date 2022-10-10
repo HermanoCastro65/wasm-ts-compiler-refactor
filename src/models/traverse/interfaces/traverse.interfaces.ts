@@ -1,4 +1,4 @@
-import { IProgram } from '../../parser/program.exports'
+import { IProgram } from '../../parser/interfaces.exports'
 
 interface IVisitor {
   (node: IProgram): void

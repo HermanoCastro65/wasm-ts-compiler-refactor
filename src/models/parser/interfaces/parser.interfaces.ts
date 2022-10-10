@@ -1,10 +1,11 @@
 import { IToken } from '../../tokenizer/interfaces.exports'
-import { IProgram, TProgram } from '../program.exports'
+import { TProgram } from '../program.exports'
+import { IProgram } from './program.interface'
 
-export interface Parser {
+export interface IParser {
   (tokens: IToken[]): TProgram
 }
 
-export interface IParser<T extends IProgram> {
+export interface IStep<T extends IProgram> {
   (): T
 }

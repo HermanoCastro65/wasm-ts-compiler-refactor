@@ -1,4 +1,4 @@
-import { IProgram } from '../../../program.exports'
+import { IProgram } from '../../../interfaces.exports'
 import { TExpression, TOperator } from '../types.exports'
 
 export interface IBinary extends IProgram {

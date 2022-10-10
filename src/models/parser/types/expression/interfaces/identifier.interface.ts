@@ -1,4 +1,4 @@
-import { IProgram } from '../../../program.exports'
+import { IProgram } from '../../../interfaces.exports'
 
 export interface IIdentifier extends IProgram {
   type: 'identifier'
