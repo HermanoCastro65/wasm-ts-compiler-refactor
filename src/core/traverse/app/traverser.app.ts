@@ -6,7 +6,7 @@ export const traverse: ITraverse = (nodes, visitor) => {
   nodes.forEach((node) => {
     Object.keys(node).forEach((prop) => {
       const value = node[prop as keyof IProgram]
-      const valueAsArray: string[] = Array.isArray(value) ? value : [value]
+      const valueAsArray: any[] = Array.isArray(value) ? value : [value]
       valueAsArray.forEach((childNode: any) => {
         if (typeof childNode.type === 'string') {
           traverse(childNode, visitor)

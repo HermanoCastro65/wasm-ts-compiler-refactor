@@ -8,7 +8,6 @@ export const tokenize: ITokenizer = (input) => {
   while (index < input.length) {
     const matches = matchers.map((m) => m(input, index)).filter((f) => f)
     if (matches.length > 0) {
-      // take the highest priority match
       const match = matches[0]
 
       if (!match) throw Error
