@@ -1,8 +1,8 @@
-import { flatten } from '../constants.exports'
+import { flatten } from '../../constants.exports'
 import { IProc } from '../../../../models/parser/types/statement/interfaces.exports'
 import { TTransformer } from '../../../../models/transformer/transformer.exports'
-import { unsignedLEB128 } from '../../encode/encode.exports'
-import { Section, Valtype } from '../../enums/enuns.exports'
+import { unsignedLEB128 } from '../../encode.exports'
+import { Section, Valtype } from '../../enuns.exports'
 
 // https://webassembly.github.io/spec/core/binary/conventions.html#binary-vec
 export const encodeVector = (data: any[]) => [...unsignedLEB128(data.length), ...flatten(data)]
