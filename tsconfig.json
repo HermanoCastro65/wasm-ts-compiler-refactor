@@ -17,7 +17,8 @@
     "baseUrl": "src",
     "paths": {
       "@models/*": ["models/*"],
-      "@core/*": ["core/*"]
+      "@core/*": ["core/*"],
+      "@parser-types/*": ["models/parser/types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
