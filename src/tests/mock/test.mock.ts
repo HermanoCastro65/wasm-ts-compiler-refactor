@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-export const mock = [
+const mock = [
   { name: 'an empty program', input: '', output: [] },
   { name: 'a print statement', input: 'print 8', output: [8] },
   {
@@ -116,3 +116,5 @@ endif
 
 // https://github.com/facebook/jest/issues/7280
 test.skip('skip', () => {})
+
+export default mock
