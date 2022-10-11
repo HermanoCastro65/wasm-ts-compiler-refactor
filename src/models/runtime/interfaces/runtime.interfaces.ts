@@ -2,7 +2,7 @@ interface IPrintFunction {
   (output: string | number): void
 }
 
-interface IEnvironment {
+export interface IEnvironment {
   print: IPrintFunction
   display: Uint8Array
 }
