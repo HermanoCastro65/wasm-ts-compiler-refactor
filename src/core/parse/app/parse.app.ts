@@ -1,6 +1,6 @@
-import { IParser, IStep } from '../../models/parser/interfaces/parser.interfaces'
-import { IIdentifier } from '../../models/parser/types/expression/interfaces.exports'
-import { TExpression, TOperator } from '../../models/parser/types/expression/types.exports'
+import { IParser, IStep } from '../../../models/parser/interfaces/parser.interfaces'
+import { IIdentifier } from '../../../models/parser/types/expression/interfaces.exports'
+import { TExpression, TOperator } from '../../../models/parser/types/expression/types.exports'
 import {
   ICall,
   IIf,
@@ -9,9 +9,9 @@ import {
   IVariableAssignment,
   IVariableDeclaration,
   IWhile,
-} from '../../models/parser/types/statement/interfaces.exports'
-import { TStatement } from '../../models/parser/types/statement/statement.export'
-import { ParserError } from './error/error.export'
+} from '../../../models/parser/types/statement/interfaces.exports'
+import { TStatement } from '../../../models/parser/types/statement/statement.export'
+import { ParserError } from '../error/error.export'
 
 const asOperator = (value: string): TOperator => {
   return value as TOperator
