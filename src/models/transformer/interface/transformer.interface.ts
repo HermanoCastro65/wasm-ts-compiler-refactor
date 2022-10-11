@@ -1,4 +1,4 @@
-import { TProgram } from '../../parser/program.exports'
+import { TProgram } from '../../parser/type.exports'
 import { TTransformer } from '../type.export'
 
 export interface ITransformer {

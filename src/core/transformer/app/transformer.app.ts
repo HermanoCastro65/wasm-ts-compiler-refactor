@@ -1,4 +1,4 @@
-import { TProgram } from '../../../models/parser/program.exports'
+import { TProgram } from '../../../models/parser/type.exports'
 import { IProc } from '../../../models/parser/types/statement/interfaces.exports'
 import { ITransformer } from '../../../models/transformer/interface.export'
 

@@ -1,5 +1,5 @@
 import { IToken } from '../../tokenizer/interfaces.exports'
-import { TProgram } from '../program.exports'
+import { TProgram } from '../type.exports'
 import { IProgram } from './program.interface'
 
 export interface IParser {

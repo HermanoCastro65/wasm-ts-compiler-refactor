@@ -1,4 +1,4 @@
-import { TProgram } from '../../parser/program.exports'
+import { TProgram } from '../../parser/type.exports'
 
 export interface IEmitter {
   (ast: TProgram): Uint8Array
