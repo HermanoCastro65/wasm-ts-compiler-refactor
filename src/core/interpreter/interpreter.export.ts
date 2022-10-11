@@ -1,1 +1,1 @@
-export * from './app/interpreter'
+export * from './app/interpreter.app'
