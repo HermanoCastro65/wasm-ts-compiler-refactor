@@ -1,9 +1,9 @@
-import { TProgram } from '../../parser/program.exports'
+import { IProgram } from '../../parser/interfaces.exports'
 
 interface IVisitor {
-  (node: TProgram): void
+  (node: IProgram): void
 }
 
 export interface ITraverse {
-  (nodes: TProgram[] | TProgram, visitor: IVisitor): void
+  (nodes: IProgram[] | IProgram, visitor: IVisitor): void
 }
