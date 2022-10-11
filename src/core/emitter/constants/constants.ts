@@ -1,4 +1,4 @@
-import { Opcodes } from '../enuns.exports'
+import { Opcodes } from '@core/emitter.exports'
 
 // eslint-disable-next-line prefer-spread
 export const flatten = (arr: any[]) => [].concat.apply([], arr)

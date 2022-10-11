@@ -1,6 +1,6 @@
-import { ITokenizer, IToken } from '../../../models/tokenizer/interfaces.exports'
-import { TokenizerError } from '../error/class/tokenizer.error'
-import { matchers, locationForIndex } from '../constants.exports'
+import { ITokenizer, IToken } from '@models/tokenizer.exports'
+import { matchers, locationForIndex } from '@core/tokenizer.export'
+import { TokenizerError } from '@core/tokenizer/error/error.export'
 
 export const tokenize: ITokenizer = (input) => {
   const tokens: IToken[] = []

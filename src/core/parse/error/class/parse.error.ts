@@ -1,4 +1,4 @@
-import { IToken } from '../../../../models/tokenizer/interfaces.exports'
+import { IToken } from '@models/tokenizer.exports'
 
 export class ParserError extends Error {
   token: IToken

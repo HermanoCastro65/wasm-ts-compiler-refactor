@@ -1,8 +1,8 @@
-import { IRuntime } from '../../../models/runtime/interfaces.export'
-import { parse } from '../../parse/app.export'
-import { tokenize } from '../../tokenizer/app.export'
-import { transformer } from '../../transformer/app.export'
-import { executeProc } from '../constants.exports'
+import { tokenize } from '@core/tokenizer.export'
+import { transformer } from '@core/transformer.export'
+import { IRuntime } from '@models/runtime.export'
+import { parse } from '@core/parser.export'
+import { executeProc } from '@core/interpreter.export'
 
 export const runtime: IRuntime = async (src, env) => () => {
   const tokens = tokenize(src)

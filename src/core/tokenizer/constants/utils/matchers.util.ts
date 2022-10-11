@@ -1,6 +1,5 @@
-import { IMatcher } from '../../../../models/tokenizer/interfaces/matcher.interface'
-import { TToken } from '../../../../models/tokenizer/type.exports'
-import { keywords, operators } from '../tokenizer.constants'
+import { TToken, IMatcher } from '@models/tokenizer.exports'
+import { keywords, operators } from '@core/tokenizer.export'
 
 const escapeRegEx = (text: string) => text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
 
