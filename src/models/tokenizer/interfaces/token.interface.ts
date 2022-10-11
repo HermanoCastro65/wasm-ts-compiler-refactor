@@ -1,4 +1,4 @@
-import { TToken } from '../type.exports'
+import { TToken } from '@models/tokenizer.exports'
 
 export interface IToken {
   type: TToken

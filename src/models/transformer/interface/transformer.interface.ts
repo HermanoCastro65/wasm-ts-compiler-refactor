@@ -1,5 +1,5 @@
-import { TProgram } from '../../parser/type.exports'
-import { TTransformer } from '../type.export'
+import { TProgram } from '@models/parser.exports'
+import { TTransformer } from '@models/transformer.exports'
 
 export interface ITransformer {
   (ast: TProgram): TTransformer

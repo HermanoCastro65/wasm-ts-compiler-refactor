@@ -1,5 +1,5 @@
-import { IProgram } from '../../../interfaces.exports'
-import { TExpression } from '../../expression/types.exports'
+import { IProgram } from '@models/parser.exports'
+import { TExpression } from '@parser-types/expression.exports'
 
 export interface ICall extends IProgram {
   type: 'callStatement'

@@ -1,3 +1,3 @@
-import { IProc } from '../../parser/types/statement/interfaces.exports'
+import { IProc } from '@parser-types/statement.exports'
 
 export type TTransformer = IProc[]

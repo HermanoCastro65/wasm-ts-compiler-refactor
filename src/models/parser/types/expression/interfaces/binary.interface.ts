@@ -1,5 +1,5 @@
-import { IProgram } from '../../../interfaces.exports'
-import { TExpression, TOperator } from '../types.exports'
+import { IProgram } from '@models/parser.exports'
+import { TExpression, TOperator } from '@parser-types/expression.exports'
 
 export interface IBinary extends IProgram {
   type: 'binaryExpression'

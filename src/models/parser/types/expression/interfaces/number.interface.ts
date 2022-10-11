@@ -1,4 +1,4 @@
-import { IProgram } from '../../../interfaces.exports'
+import { IProgram } from '@models/parser.exports'
 
 export interface INumber extends IProgram {
   type: 'numberLiteral'
