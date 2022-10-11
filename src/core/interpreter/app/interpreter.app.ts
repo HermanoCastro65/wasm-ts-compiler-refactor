@@ -1,4 +1,4 @@
-import { IRuntime } from '../../../models/runtime/runtime.export'
+import { IRuntime } from '../../../models/runtime/interfaces.export'
 import { parse } from '../../parse/parser.export'
 import { tokenize } from '../../tokenizer/tokenizer.export'
 import { transformer } from '../../transformer/transformer.export'

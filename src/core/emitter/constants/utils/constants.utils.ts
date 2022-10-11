@@ -1,6 +1,6 @@
 import { flatten } from '../../constants.exports'
 import { IProc } from '../../../../models/parser/types/statement/interfaces.exports'
-import { TTransformer } from '../../../../models/transformer/transformer.exports'
+import { TTransformer } from '../../../../models/transformer/type.export'
 import { unsignedLEB128 } from '../../encode.exports'
 import { Section, Valtype } from '../../enuns.exports'
 

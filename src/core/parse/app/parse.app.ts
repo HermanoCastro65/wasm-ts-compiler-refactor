@@ -10,7 +10,7 @@ import {
   IVariableDeclaration,
   IWhile,
 } from '../../../models/parser/types/statement/interfaces.exports'
-import { TStatement } from '../../../models/parser/types/statement/statement.export'
+import { TStatement } from '../../../models/parser/types/statement/type.export'
 import { ParserError } from '../error/error.export'
 
 const asOperator = (value: string): TOperator => {

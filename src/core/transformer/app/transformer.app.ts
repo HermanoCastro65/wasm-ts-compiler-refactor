@@ -1,6 +1,6 @@
 import { TProgram } from '../../../models/parser/program.exports'
 import { IProc } from '../../../models/parser/types/statement/interfaces.exports'
-import { ITransformer } from '../../../models/transformer/transformer.exports'
+import { ITransformer } from '../../../models/transformer/interface.export'
 
 export const transformer: ITransformer = (ast: TProgram) => {
   if (!ast.find((a) => a.type === 'procStatement' && a.name === 'main')) {

@@ -1,4 +1,4 @@
-import { TToken } from '../token.exports'
+import { TToken } from '../type.exports'
 
 export interface IToken {
   type: TToken

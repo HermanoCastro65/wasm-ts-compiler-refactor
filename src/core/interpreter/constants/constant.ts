@@ -1,8 +1,8 @@
 import { TExpression } from '../../../models/parser/types/expression/types.exports'
 import { IProc } from '../../../models/parser/types/statement/interfaces.exports'
-import { TStatement } from '../../../models/parser/types/statement/statement.export'
-import { IEnvironment } from '../../../models/runtime/runtime.export'
-import { TTransformer } from '../../../models/transformer/transformer.exports'
+import { TStatement } from '../../../models/parser/types/statement/type.export'
+import { IEnvironment } from '../../../models/runtime/interfaces.export'
+import { TTransformer } from '../../../models/transformer/type.export'
 import { applyOperator } from '../constants.exports'
 
 export const executeProc = (

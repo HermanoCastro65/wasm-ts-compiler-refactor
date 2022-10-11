@@ -1,5 +1,5 @@
 import { IProgram } from '../../../models/parser/interfaces.exports'
-import { ITraverse } from '../../../models/traverse/traverse.export'
+import { ITraverse } from '../../../models/traverse/interface.export'
 
 export const traverse: ITraverse = (nodes, visitor) => {
   nodes = Array.isArray(nodes) ? nodes : [nodes]

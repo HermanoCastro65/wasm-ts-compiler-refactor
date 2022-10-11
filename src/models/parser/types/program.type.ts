@@ -1,3 +1,3 @@
-import { TStatement } from './statement/statement.export'
+import { TStatement } from './statement/type.export'
 
 export type TProgram = TStatement[]
