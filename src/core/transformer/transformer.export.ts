@@ -1,1 +1,1 @@
-export * from './app/transformer'
+export * from './app/transformer.app'
