@@ -114,7 +114,4 @@ endif
   },
 ]
 
-// https://github.com/facebook/jest/issues/7280
-test.skip('skip', () => {})
-
 export default mock

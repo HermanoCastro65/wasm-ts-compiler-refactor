@@ -5,7 +5,7 @@
   "scripts": {
     "image": "docker build -t wasm-compiler-docker:atual .",
     "docker": "docker run -p 3000:3000",
-    "test": "yarn run jest",
+    "test": "yarn run jest -detec-tOpenHandles",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
