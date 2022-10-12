@@ -1,5 +1,4 @@
 import {
-  Opcodes,
   ieee754,
   unsignedLEB128,
   Blocktype,
@@ -13,7 +12,7 @@ import { IProgram } from '@models/parser.exports'
 import { TExpression, TOperator } from '@parser-types/expression.exports'
 import { IProc, TStatement } from '@parser-types/statement.exports'
 import { TTransformer } from '@models/transformer.exports'
-import binaryOpcode from '@core/emitter/constants/binary'
+import binaryOpcode, { Opcodes } from '@core/emitter/constants/binary'
 
 export const codeFromProc = (node: IProc, program: TTransformer) => {
   const code: number[] = []
