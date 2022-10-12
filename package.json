@@ -7,6 +7,7 @@
     "docker": "docker run -p 3000:3000",
     "test": "yarn run jest",
     "dev": "next dev",
+    "test:dev": "yarn test && yarn dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -32,5 +33,9 @@
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/HermanoCastro65/wasm-ts-compiler-refactor.git",
+  "author": "HermanoCastro65 <hermanocastro18@gmail.com>",
+  "license": "MIT"
 }
